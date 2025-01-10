@@ -13,7 +13,7 @@ class MsbServer(wx.Frame):
         # 在面板里面会放一些按钮，文本框，文本输入框等，把这些对象统一放入一个盒子里面
         box = wx.BoxSizer(wx.VERTICAL)  # 在盒子里面垂直方向自动排版
 
-        g1 = wx.FlexGridSizer(wx.HORIZONTAL)  # 可升缩的网格布局,水平方向
+        g1 = wx.FlexGridSizer(wx.HORIZONTAL)  # 可缩的网格布局,水平方向
         # 创建三个按钮
         start_server_button = wx.Button(pl, size=(133, 40), label="启动")
         record_save_button = wx.Button(pl, size=(133, 40), label="聊天记录保存")
