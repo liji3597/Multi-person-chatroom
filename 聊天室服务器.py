@@ -111,4 +111,5 @@ class SessionThread(threading.Thread):
 if __name__ == '__main__':
     app = wx.App()
     MsbServer().Show()
-    app.MainLoop()  # 循环刷新显示
+    app.MainLoop()  
+    # 循环刷新显示

@@ -101,5 +101,6 @@ if __name__ == '__main__':
     app = wx.App()
     name = input("请输入客户端名字:")
     MsbClient(name).Show()
-    app.MainLoop() #循环刷新显示
+    app.MainLoop() 
+    #循环刷新显示
 
